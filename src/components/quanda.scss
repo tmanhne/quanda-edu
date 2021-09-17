@@ -1,0 +1,137 @@
+* {
+  padding: 0; /* */
+  margin: 0; /* */
+  box-sizing: border-box; /* loại bỏ tính toán kích thước */
+}
+#body {
+  background: #caeef7;
+  position: relative;
+  width: 100%;
+  height: 1080px;
+
+  #header {
+    img {
+      position: absolute;
+      width: 510.16px;
+      height: 73px;
+      left: 704.92px;
+      top: 36px;
+    }
+  }
+  #content {
+    #content__left {
+      #content--intro {
+        position: absolute;
+        width: 637px;
+        height: 140px;
+        left: 277px;
+        top: 297px;
+
+        font-family: Arial, Helvetica, sans-serif;
+        
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 70px;
+        color: #171d2b;
+      }
+      #line__intro {
+        background: #ff6d34;
+        position: absolute;
+        width: 519px;
+        height: 18px;
+        left: 277px;
+        top: 416px;
+      }
+      #content--shortdes {
+        position: absolute;
+        width: 519px;
+        height: 105px;
+        left: 277px;
+        top: 473px;
+
+        font-family: Arial, Helvetica, sans-serif;
+        
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 35px;
+        color: #323b48;
+      }
+      .button__Regis--red {
+        font-family: Arial, Helvetica, sans-serif;
+        
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 80px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+
+        background: linear-gradient(90deg, #ff005a 3.75%, #ff480d 100%);
+        border-radius: 100px;
+        border: none;
+        position: absolute;
+        width: 429px;
+        // height: 80px;
+        left: 277px;
+        top: 626px;
+      }
+    }
+    #content__right {
+      #box__shadow {
+        position: absolute;
+        width: 844px;
+        height: 671px;
+        left: calc(50% - 844px / 2 + 454px);
+        top: 145px;
+        background: #eaf4fc;
+        border-radius: 24px;
+        iframe{
+          border-radius: 24px;
+        }
+      }
+    }
+  }
+  #footer {
+    background: #f68922;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 91.11%;
+    bottom: 0%;
+    .button__Regis--blue {
+      position: absolute;
+      width: 429px;
+      height: 80px;
+      left: 1225px;
+      top: 8px;
+      background: #0367b4;
+      border-radius: 100px;
+      font-family: Arial, Helvetica, sans-serif;
+      
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 133%;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      border: none;
+    }
+    .footer__title--quanda {
+      position: absolute;
+      left: 237px;
+      right: 1332px;
+      top: 32px;
+      bottom: 31px;
+      color: #ffffff;
+      // display: flex;
+    }
+    .footer__title--free {
+      position: absolute;
+      left: 951px;
+      right: 729px;
+      top: 32px;
+      bottom: 31px;
+      color: #ffffff;
+    }
+  }
+}
