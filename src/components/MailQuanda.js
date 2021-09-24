@@ -1,7 +1,7 @@
 import "./mailQD.scss";
 import React from "react";
 import logo from "../assets/images/AkadonRevol.png";
-import footer from "../assets/images/footerEmail.png";
+// import footer from "../assets/images/footerEmail.png";
 import botposter from "../assets/images/botposter.png";
 import people from "../assets/images/people01.png";
 import hand from "../assets/images/hand02.png";
@@ -56,7 +56,64 @@ export default function MailQuanda() {
             Tìm và học cùng gia sư, chỉ với 6 bước đơn giản
           </h1>
         </div>
-        <div id="bot__column">
+        <div className="flex-container">
+          <div id="item">
+            <img id="pict" src={stt1} alt="stt1"></img>
+            <h3>Yêu Cầu</h3>
+            <p className="ct01">
+              Học viên đăng yêu cầu tìm kiếm gia sư trên website
+            </p>
+            <a href="url">akadon.edu.vn</a>
+            <img className="pic" src={people} alt="people"></img>
+          </div>
+          <div id="item">
+            <img id="pict" src={stt2} alt="stt2"></img>
+            <h3>Chọn lựa</h3>
+            <p>Học viên lựa chọn gia sư phù hợp từ những người đăng ký dạy</p>
+            <div className="pic">
+              <img className="pichand" src={hand} alt="hand"></img>
+            </div>
+          </div>
+          <div id="item">
+            <img id="pict" src={stt3} alt="stt3"></img>
+            <h3>Học thử</h3>
+            <p>Hai bên học thử để làm quen và đánh giá độ phù hợp</p>
+            <div className="pic">
+              <img className="pic--connect" src={conect} alt="conect"></img>
+            </div>
+          </div>
+          <div id="item">
+            <img id="pict" src={stt4} alt="stt4"></img>
+            <h3>Thống nhất</h3>
+            <p>
+              Học viên và Gia sư đồng ý về Nội dung khóa học và thành lập Hợp
+              đồng dạy học online
+            </p>
+            <div className="pic">
+              <img className="pic--shake" src={shakehand} alt="shakehand"></img>
+            </div>
+          </div>
+          <div id="item">
+            <img id="pict" src={stt5} alt="stt5"></img>
+            <h3>Bắt đầu học tập</h3>
+            <p>
+              Học viên và Gia sư có thể tùy chọn học offline tại nhà, hoặc học
+              online ngay trên website của AKADON
+            </p>
+            <div className="pic">
+              <img className="pic--wifi" src={wifi} alt="wifi"></img>
+            </div>
+          </div>
+          <div id="item">
+            <img id="pict" src={stt6} alt="stt6"></img>
+            <h3>Thanh toán</h3>
+            <p>Học viên thanh toán cho Gia sư sau mỗi buổi học </p>
+            <div className="pic">
+              <img className="pic--payment" src={pay} alt="pay"></img>
+            </div>
+          </div>
+        </div>
+        {/* <div id="bot__column">
           <div className="bot__cloumn--01">
             <img className="pic01" src={stt1} alt="stt1"></img>
             <div className="bot__content1">
@@ -64,7 +121,7 @@ export default function MailQuanda() {
                 <h3>Yêu Cầu</h3>
               </div>
               <div className="bot__content1--description">
-              <p>Học viên đăng yêu cầu tìm kiếm gia sư trên website</p>
+                <p>Học viên đăng yêu cầu tìm kiếm gia sư trên website</p>
                 <a href="url">akadon.edu.vn</a>
               </div>
             </div>
@@ -77,7 +134,9 @@ export default function MailQuanda() {
                 <h3>Chọn lựa</h3>
               </div>
               <div className="bot__content2--description">
-                <p>Học viên lựa chọn gia sư phù hợp từ những người đăng ký dạy</p>
+                <p>
+                  Học viên lựa chọn gia sư phù hợp từ những người đăng ký dạy
+                </p>
               </div>
             </div>
             <img className="pic2" src={hand} alt="hand"></img>
@@ -101,7 +160,10 @@ export default function MailQuanda() {
                 <h3>Thống nhất</h3>
               </div>
               <div className="bot__content4--description">
-                <p>Học viên và Gia sư đồng ý về Nội dung khóa học và thành lập Hợp đồng dạy học online</p>
+                <p>
+                  Học viên và Gia sư đồng ý về Nội dung khóa học và thành lập
+                  Hợp đồng dạy học online
+                </p>
               </div>
             </div>
             <img className="pic4" src={shakehand} alt="shakehand"></img>
@@ -113,7 +175,10 @@ export default function MailQuanda() {
                 <h3>Bắt đầu học tập</h3>
               </div>
               <div className="bot__content5--description">
-                <p>Học viên và Gia sư có thể tùy chọn học offline tại nhà, hoặc học online ngay trên website của AKADON</p>
+                <p>
+                  Học viên và Gia sư có thể tùy chọn học offline tại nhà, hoặc
+                  học online ngay trên website của AKADON
+                </p>
               </div>
             </div>
             <img className="pic5" src={wifi} alt="wifi"></img>
@@ -125,29 +190,35 @@ export default function MailQuanda() {
                 <h3>Thanh toán</h3>
               </div>
               <div className="bot__content6--description">
-                <p>Học viên thanh toán cho Gia sư sau mỗi buổi học </p>                
+                <p>Học viên thanh toán cho Gia sư sau mỗi buổi học </p>
               </div>
             </div>
             <img className="pic6" src={pay} alt="pay"></img>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div id="footer">
-        <div className="address">
-          <img src={address} alt="address"></img>
-          <p> Số 26 Lê Trọng Tấn, Khương Mai, Thanh Xuân, Hà Nội</p>
+        <div className="container">
+          <button className="button--websiteAka">
+            Truy cập website Akadon
+          </button>
+
+          <div className="contact">
+            <div className="address">
+              <img src={address} alt="address"></img>
+              <p> Số 26 Lê Trọng Tấn, Khương Mai, Thanh Xuân, Hà Nội</p>
+            </div>
+            <div className="email">
+              <img src={email} alt="email"></img>
+              <p> contact@akadon.com.vn</p>
+            </div>
+            <div className="phone">
+              <img src={mphone} alt="mphone"></img>
+              <p> 085 883 6632</p>
+            </div>
+          </div>
         </div>
-        <div className="email">
-          <img src={email} alt="email"></img>
-          <p> contact@akadon.com.vn</p>
-        </div>
-        <div className="phone">
-          <img src={mphone} alt="mphone"></img>
-          <p> 085 883 6632</p>
-        </div>
-        <img src={footer} alt="footer"></img>
-        <button className="button--websiteAka">Truy cập website Akadon</button>
       </div>
     </div>
   );
