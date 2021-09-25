@@ -1,0 +1,28 @@
+* {
+  padding: 0; /* */
+  margin: 0; /* */
+  box-sizing: border-box; /* loại bỏ tính toán kích thước */
+}
+.small-temple {
+  background: #eaf4fc;
+  padding: 16px 16px 0 16px;
+  &__header-mail,
+  &__main-content,
+  &__footer {
+    max-width: 993px;
+    background: #fff;
+    margin: 0 auto;
+  }
+  &__header-mail {
+    margin-bottom: 20px;
+    padding: 0 16px 4px 16px;
+
+    .logo-qanda {
+      text-align: center;
+    }
+  }
+  //   &__main-content {
+  //   }
+  //   &__footer {
+  //   }
+}
