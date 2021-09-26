@@ -22,13 +22,16 @@ import stt6 from "../assets/images/06.png";
 export default function MailQuanda() {
   return (
     <div className="mail-qanda">
+
       <div className="mail-qanda__top-content">
         <div className="logo-qanda">
           <img src={logo} alt="logo"></img>
         </div>
+
         <div className="top__intro">
           <p>Chào Mừng bạn đến với AKADON! </p>
         </div>
+        
         <div className="top--content">
           <p>
             AKADON là website kết nối Gia sư với Học viên nhanh chóng, tiện lợi

@@ -14,15 +14,126 @@
     margin: 0 auto;
   }
   &__header-mail {
-    margin-bottom: 20px;
+    // margin-bottom: 10px;
     padding: 0 16px 4px 16px;
-
+    // position: relative;
+    // z-index: 10;
     .logo-qanda {
+      text-align: center;
+      padding-top: 20px;
+      margin-bottom: 20px;
+    }
+    // .footer-header {
+    //   margin: 0 auto;
+    //   position: absolute;
+    //   // left: -23px;
+    //   bottom: 0px;
+    //   // left: 334px;
+    //   // z-index: -1;
+    // }
+  }
+  .line-footer {
+    max-width: 993px;
+    height: 4px;
+    background: #0367b4;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  &__main-content {
+    padding: 36px 48px 31px 48px;
+    .main-title {
+      max-width: 525px;
+      margin-bottom: 36px;
+      font-size: 24px;
+      color: #111111;
+      font-weight: 600;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .main-content {
+      max-width: 585px;
+      margin-bottom: 40px;
+      line-height: 33px;
+      font-size: 18px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: #111111;
+    }
+    .main-line {
+      max-width: 897px;
+      border: 1px solid #c5c6d1;
+      margin-bottom: 24px;
+    }
+    .main-footer-title {
+      margin-bottom: 16px;
+      text-align: center;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 1000;
+      font-size: 16px;
+      line-height: 15px;
+      color: #8f8f8f;
+    }
+    .main-logo{
       text-align: center;
     }
   }
-  //   &__main-content {
-  //   }
-  //   &__footer {
-  //   }
+  &__footer {
+    text-align: center !important;
+    background-image: url(../assets/images/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 56px 1px;
+
+    .button--websiteAka button {
+      margin-bottom: 24px;
+      width: 328px;
+      height: 48px;
+      text-align: center;
+      background: #ffffff;
+      border-radius: 60px;
+      border: none;
+      /*style */
+      color: #0367b4;
+      font-family: Montserrat;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 21px;
+      text-align: center;
+    }
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px;
+      margin: 17px 85px 0px 80px;
+      .address {
+        display: flex;
+        p {
+          font-family: Montserrat;
+          font-weight: 500;
+          font-size: 14px;
+          color: #ffffff;
+          padding-left: 6px;
+        }
+      }
+      .email {
+        display: flex;
+        p {
+          font-family: Montserrat;
+          font-weight: 500;
+          font-size: 14px;
+          color: #ffffff;
+          padding-left: 6px;
+        }
+      }
+      .phone {
+        display: flex;
+        p {
+          font-family: Montserrat;
+          font-weight: 500;
+          font-size: 14px;
+          color: #ffffff;
+          padding-left: 6px;
+        }
+      }
+    }
+  }
 }
